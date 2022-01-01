@@ -1,9 +1,10 @@
-# AndroidDebugBridge
+# Android Debug Bridge
 ![Logo](https://github.com/SereJaPWNZ/AndroidDebugBridge/blob/master/assert/Logo.png)
 
 ## Home Work
 
  1. Отобразить подключённый девайс в консоли.
+    adb devices   
  2. Вывести адрес приложения todolist в системе Android
  3. Установить .apk файл приложениия todolist на телефон с компьютера через  ADB
  4. Сделать скриншот запущенного приложения todolist и сразу скопировать на компьютер в одной команде.
