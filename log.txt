@@ -1,0 +1,152 @@
+01-01 21:06:48.356 12028 12028 E Finsky  : 	at khj.run(PG:69)
+01-01 21:06:48.356 12028 12028 E Finsky  : 	at android.os.Handler.handleCallback(Handler.java:938)
+01-01 21:06:48.356 12028 12028 E Finsky  : 	at android.os.Handler.dispatchMessage(Handler.java:99)
+01-01 21:06:48.356 12028 12028 E Finsky  : 	at android.os.Looper.loop(Looper.java:233)
+01-01 21:06:48.356 12028 12028 E Finsky  : 	at android.os.HandlerThread.run(HandlerThread.java:67)
+01-01 21:06:48.356 12028 12028 E Finsky  : [2] qsw.b(8): STU: Error getting stats
+01-01 21:06:48.360 12028 12028 E Finsky  : [2] qsw.b(5): STU: Failed to get status for package 'com.freevpnintouch' (1601)
+01-01 21:06:48.360 12028 12028 E Finsky  : android.content.pm.PackageManager$NameNotFoundException: com.freevpnintouch
+01-01 21:06:48.360 12028 12028 E Finsky  : 	at java.lang.reflect.Constructor.newInstance0(Native Method)
+01-01 21:06:48.360 12028 12028 E Finsky  : 	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+01-01 21:06:48.360 12028 12028 E Finsky  : 	at android.os.ParcelableException.readFromParcel(ParcelableException.java:56)
+01-01 21:06:48.360 12028 12028 E Finsky  : 	at android.os.ParcelableException$1.createFromParcel(ParcelableException.java:82)
+01-01 21:06:48.360 12028 12028 E Finsky  : 	at android.os.ParcelableException$1.createFromParcel(ParcelableException.java:79)
+01-01 21:06:48.360 12028 12028 E Finsky  : 	at android.os.Parcel.readParcelable(Parcel.java:3281)
+01-01 21:06:48.360 12028 12028 E Finsky  : 	at android.os.Parcel.createExceptionOrNull(Parcel.java:2368)
+01-01 21:06:48.360 12028 12028 E Finsky  : 	at android.os.Parcel.createException(Parcel.java:2357)
+01-01 21:06:48.360 12028 12028 E Finsky  : 	at android.os.Parcel.readException(Parcel.java:2340)
+01-01 21:06:48.360 12028 12028 E Finsky  : 	at android.os.Parcel.readException(Parcel.java:2282)
+01-01 21:06:48.360 12028 12028 E Finsky  : 	at android.app.usage.IStorageStatsManager$Stub$Proxy.queryStatsForPackage(IStorageStatsManager.java:561)
+01-01 21:06:48.360 12028 12028 E Finsky  : 	at android.app.usage.StorageStatsManager.queryStatsForPackage(StorageStatsManager.java:213)
+01-01 21:06:48.360 12028 12028 E Finsky  : 	at khj.run(PG:69)
+01-01 21:06:48.360 12028 12028 E Finsky  : 	at android.os.Handler.handleCallback(Handler.java:938)
+01-01 21:06:48.360 12028 12028 E Finsky  : 	at android.os.Handler.dispatchMessage(Handler.java:99)
+01-01 21:06:48.360 12028 12028 E Finsky  : 	at android.os.Looper.loop(Looper.java:233)
+01-01 21:06:48.360 12028 12028 E Finsky  : 	at android.os.HandlerThread.run(HandlerThread.java:67)
+01-01 21:06:48.360 12028 12028 E Finsky  : [2] qsw.b(8): STU: Error getting stats
+01-01 21:06:48.362 12028 12028 E Finsky  : [2] qsw.b(5): STU: Failed to get status for package 'com.puzzleenglish.main' (1601)
+01-01 21:06:48.362 12028 12028 E Finsky  : android.content.pm.PackageManager$NameNotFoundException: com.puzzleenglish.main
+01-01 21:06:48.362 12028 12028 E Finsky  : 	at java.lang.reflect.Constructor.newInstance0(Native Method)
+01-01 21:06:48.362 12028 12028 E Finsky  : 	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+01-01 21:06:48.362 12028 12028 E Finsky  : 	at android.os.ParcelableException.readFromParcel(ParcelableException.java:56)
+01-01 21:06:48.362 12028 12028 E Finsky  : 	at android.os.ParcelableException$1.createFromParcel(ParcelableException.java:82)
+01-01 21:06:48.362 12028 12028 E Finsky  : 	at android.os.ParcelableException$1.createFromParcel(ParcelableException.java:79)
+01-01 21:06:48.362 12028 12028 E Finsky  : 	at android.os.Parcel.readParcelable(Parcel.java:3281)
+01-01 21:06:48.362 12028 12028 E Finsky  : 	at android.os.Parcel.createExceptionOrNull(Parcel.java:2368)
+01-01 21:06:48.362 12028 12028 E Finsky  : 	at android.os.Parcel.createException(Parcel.java:2357)
+01-01 21:06:48.362 12028 12028 E Finsky  : 	at android.os.Parcel.readException(Parcel.java:2340)
+01-01 21:06:48.362 12028 12028 E Finsky  : 	at android.os.Parcel.readException(Parcel.java:2282)
+01-01 21:06:48.362 12028 12028 E Finsky  : 	at android.app.usage.IStorageStatsManager$Stub$Proxy.queryStatsForPackage(IStorageStatsManager.java:561)
+01-01 21:06:48.362 12028 12028 E Finsky  : 	at android.app.usage.StorageStatsManager.queryStatsForPackage(StorageStatsManager.java:213)
+01-01 21:06:48.362 12028 12028 E Finsky  : 	at khj.run(PG:69)
+01-01 21:06:48.362 12028 12028 E Finsky  : 	at android.os.Handler.handleCallback(Handler.java:938)
+01-01 21:06:48.362 12028 12028 E Finsky  : 	at android.os.Handler.dispatchMessage(Handler.java:99)
+01-01 21:06:48.362 12028 12028 E Finsky  : 	at android.os.Looper.loop(Looper.java:233)
+01-01 21:06:48.362 12028 12028 E Finsky  : 	at android.os.HandlerThread.run(HandlerThread.java:67)
+01-01 21:06:48.362 12028 12028 E Finsky  : [2] qsw.b(8): STU: Error getting stats
+01-01 21:06:48.363 12028 12028 E Finsky  : [2] qsw.b(5): STU: Failed to get status for package 'ru.sbcs.store' (1601)
+01-01 21:06:48.363 12028 12028 E Finsky  : android.content.pm.PackageManager$NameNotFoundException: ru.sbcs.store
+01-01 21:06:48.363 12028 12028 E Finsky  : 	at java.lang.reflect.Constructor.newInstance0(Native Method)
+01-01 21:06:48.363 12028 12028 E Finsky  : 	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+01-01 21:06:48.363 12028 12028 E Finsky  : 	at android.os.ParcelableException.readFromParcel(ParcelableException.java:56)
+01-01 21:06:48.363 12028 12028 E Finsky  : 	at android.os.ParcelableException$1.createFromParcel(ParcelableException.java:82)
+01-01 21:06:48.363 12028 12028 E Finsky  : 	at android.os.ParcelableException$1.createFromParcel(ParcelableException.java:79)
+01-01 21:06:48.363 12028 12028 E Finsky  : 	at android.os.Parcel.readParcelable(Parcel.java:3281)
+01-01 21:06:48.363 12028 12028 E Finsky  : 	at android.os.Parcel.createExceptionOrNull(Parcel.java:2368)
+01-01 21:06:48.363 12028 12028 E Finsky  : 	at android.os.Parcel.createException(Parcel.java:2357)
+01-01 21:06:48.363 12028 12028 E Finsky  : 	at android.os.Parcel.readException(Parcel.java:2340)
+01-01 21:06:48.363 12028 12028 E Finsky  : 	at android.os.Parcel.readException(Parcel.java:2282)
+01-01 21:06:48.363 12028 12028 E Finsky  : 	at android.app.usage.IStorageStatsManager$Stub$Proxy.queryStatsForPackage(IStorageStatsManager.java:561)
+01-01 21:06:48.363 12028 12028 E Finsky  : 	at android.app.usage.StorageStatsManager.queryStatsForPackage(StorageStatsManager.java:213)
+01-01 21:06:48.363 12028 12028 E Finsky  : 	at khj.run(PG:69)
+01-01 21:06:48.363 12028 12028 E Finsky  : 	at android.os.Handler.handleCallback(Handler.java:938)
+01-01 21:06:48.363 12028 12028 E Finsky  : 	at android.os.Handler.dispatchMessage(Handler.java:99)
+01-01 21:06:48.363 12028 12028 E Finsky  : 	at android.os.Looper.loop(Looper.java:233)
+01-01 21:06:48.363 12028 12028 E Finsky  : 	at android.os.HandlerThread.run(HandlerThread.java:67)
+01-01 21:06:48.363 12028 12028 E Finsky  : [2] qsw.b(8): STU: Error getting stats
+01-01 21:06:48.363 12028 12028 E Finsky  : [2] qsw.b(5): STU: Failed to get status for package 'ru.sberbankmobile' (1601)
+01-01 21:06:48.363 12028 12028 E Finsky  : android.content.pm.PackageManager$NameNotFoundException: ru.sberbankmobile
+01-01 21:06:48.363 12028 12028 E Finsky  : 	at java.lang.reflect.Constructor.newInstance0(Native Method)
+01-01 21:06:48.363 12028 12028 E Finsky  : 	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+01-01 21:06:48.363 12028 12028 E Finsky  : 	at android.os.ParcelableException.readFromParcel(ParcelableException.java:56)
+01-01 21:06:48.363 12028 12028 E Finsky  : 	at android.os.ParcelableException$1.createFromParcel(ParcelableException.java:82)
+01-01 21:06:48.363 12028 12028 E Finsky  : 	at android.os.ParcelableException$1.createFromParcel(ParcelableException.java:79)
+01-01 21:06:48.363 12028 12028 E Finsky  : 	at android.os.Parcel.readParcelable(Parcel.java:3281)
+01-01 21:06:48.363 12028 12028 E Finsky  : 	at android.os.Parcel.createExceptionOrNull(Parcel.java:2368)
+01-01 21:06:48.363 12028 12028 E Finsky  : 	at android.os.Parcel.createException(Parcel.java:2357)
+01-01 21:06:48.363 12028 12028 E Finsky  : 	at android.os.Parcel.readException(Parcel.java:2340)
+01-01 21:06:48.363 12028 12028 E Finsky  : 	at android.os.Parcel.readException(Parcel.java:2282)
+01-01 21:06:48.363 12028 12028 E Finsky  : 	at android.app.usage.IStorageStatsManager$Stub$Proxy.queryStatsForPackage(IStorageStatsManager.java:561)
+01-01 21:06:48.363 12028 12028 E Finsky  : 	at android.app.usage.StorageStatsManager.queryStatsForPackage(StorageStatsManager.java:213)
+01-01 21:06:48.363 12028 12028 E Finsky  : 	at khj.run(PG:69)
+01-01 21:06:48.363 12028 12028 E Finsky  : 	at android.os.Handler.handleCallback(Handler.java:938)
+01-01 21:06:48.363 12028 12028 E Finsky  : 	at android.os.Handler.dispatchMessage(Handler.java:99)
+01-01 21:06:48.363 12028 12028 E Finsky  : 	at android.os.Looper.loop(Looper.java:233)
+01-01 21:06:48.363 12028 12028 E Finsky  : 	at android.os.HandlerThread.run(HandlerThread.java:67)
+01-01 21:06:48.363 12028 12028 E Finsky  : [2] qsw.b(8): STU: Error getting stats
+01-01 21:06:48.364 12028 12028 E Finsky  : [2] qsw.b(5): STU: Failed to get status for package 'org.kde.kdeconnect_tp' (1601)
+01-01 21:06:48.364 12028 12028 E Finsky  : android.content.pm.PackageManager$NameNotFoundException: org.kde.kdeconnect_tp
+01-01 21:06:48.364 12028 12028 E Finsky  : 	at java.lang.reflect.Constructor.newInstance0(Native Method)
+01-01 21:06:48.364 12028 12028 E Finsky  : 	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+01-01 21:06:48.364 12028 12028 E Finsky  : 	at android.os.ParcelableException.readFromParcel(ParcelableException.java:56)
+01-01 21:06:48.364 12028 12028 E Finsky  : 	at android.os.ParcelableException$1.createFromParcel(ParcelableException.java:82)
+01-01 21:06:48.364 12028 12028 E Finsky  : 	at android.os.ParcelableException$1.createFromParcel(ParcelableException.java:79)
+01-01 21:06:48.364 12028 12028 E Finsky  : 	at android.os.Parcel.readParcelable(Parcel.java:3281)
+01-01 21:06:48.364 12028 12028 E Finsky  : 	at android.os.Parcel.createExceptionOrNull(Parcel.java:2368)
+01-01 21:06:48.364 12028 12028 E Finsky  : 	at android.os.Parcel.createException(Parcel.java:2357)
+01-01 21:06:48.364 12028 12028 E Finsky  : 	at android.os.Parcel.readException(Parcel.java:2340)
+01-01 21:06:48.364 12028 12028 E Finsky  : 	at android.os.Parcel.readException(Parcel.java:2282)
+01-01 21:06:48.364 12028 12028 E Finsky  : 	at android.app.usage.IStorageStatsManager$Stub$Proxy.queryStatsForPackage(IStorageStatsManager.java:561)
+01-01 21:06:48.364 12028 12028 E Finsky  : 	at android.app.usage.StorageStatsManager.queryStatsForPackage(StorageStatsManager.java:213)
+01-01 21:06:48.364 12028 12028 E Finsky  : 	at khj.run(PG:69)
+01-01 21:06:48.364 12028 12028 E Finsky  : 	at android.os.Handler.handleCallback(Handler.java:938)
+01-01 21:06:48.364 12028 12028 E Finsky  : 	at android.os.Handler.dispatchMessage(Handler.java:99)
+01-01 21:06:48.364 12028 12028 E Finsky  : 	at android.os.Looper.loop(Looper.java:233)
+01-01 21:06:48.364 12028 12028 E Finsky  : 	at android.os.HandlerThread.run(HandlerThread.java:67)
+01-01 21:06:48.364 12028 12028 E Finsky  : [2] qsw.b(8): STU: Error getting stats
+01-01 21:06:48.364 12028 12028 E Finsky  : [2] qsw.b(5): STU: Failed to get status for package 'com.vkontakte.android' (1601)
+01-01 21:06:48.364 12028 12028 E Finsky  : android.content.pm.PackageManager$NameNotFoundException: com.vkontakte.android
+01-01 21:06:48.364 12028 12028 E Finsky  : 	at java.lang.reflect.Constructor.newInstance0(Native Method)
+01-01 21:06:48.364 12028 12028 E Finsky  : 	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+01-01 21:06:48.364 12028 12028 E Finsky  : 	at android.os.ParcelableException.readFromParcel(ParcelableException.java:56)
+01-01 21:06:48.364 12028 12028 E Finsky  : 	at android.os.ParcelableException$1.createFromParcel(ParcelableException.java:82)
+01-01 21:06:48.364 12028 12028 E Finsky  : 	at android.os.ParcelableException$1.createFromParcel(ParcelableException.java:79)
+01-01 21:06:48.364 12028 12028 E Finsky  : 	at android.os.Parcel.readParcelable(Parcel.java:3281)
+01-01 21:06:48.364 12028 12028 E Finsky  : 	at android.os.Parcel.createExceptionOrNull(Parcel.java:2368)
+01-01 21:06:48.364 12028 12028 E Finsky  : 	at android.os.Parcel.createException(Parcel.java:2357)
+01-01 21:06:48.364 12028 12028 E Finsky  : 	at android.os.Parcel.readException(Parcel.java:2340)
+01-01 21:06:48.364 12028 12028 E Finsky  : 	at android.os.Parcel.readException(Parcel.java:2282)
+01-01 21:06:48.364 12028 12028 E Finsky  : 	at android.app.usage.IStorageStatsManager$Stub$Proxy.queryStatsForPackage(IStorageStatsManager.java:561)
+01-01 21:06:48.364 12028 12028 E Finsky  : 	at android.app.usage.StorageStatsManager.queryStatsForPackage(StorageStatsManager.java:213)
+01-01 21:06:48.364 12028 12028 E Finsky  : 	at khj.run(PG:69)
+01-01 21:06:48.364 12028 12028 E Finsky  : 	at android.os.Handler.handleCallback(Handler.java:938)
+01-01 21:06:48.364 12028 12028 E Finsky  : 	at android.os.Handler.dispatchMessage(Handler.java:99)
+01-01 21:06:48.364 12028 12028 E Finsky  : 	at android.os.Looper.loop(Looper.java:233)
+01-01 21:06:48.364 12028 12028 E Finsky  : 	at android.os.HandlerThread.run(HandlerThread.java:67)
+01-01 21:06:48.365 12028 12028 E Finsky  : [2] qsw.b(8): STU: Error getting stats
+01-01 21:06:48.365  1563  1563 I AccountManagerService: getAuthToken,mAuthenticator = android.accounts.IAccountAuthenticator$Stub$Proxy@54b2aca
+01-01 21:06:48.375 12028 12284 I Finsky  : [6794] ffq.b(33): AU2: Successfully cleaned-up UpdateFailureHistory
+01-01 21:06:48.375 12028 12284 I Finsky  : [6794] pkc.apply(66): SCH: Scheduling 0 system job(s)
+01-01 21:06:48.377 12028 12284 I Finsky  : [6794] ppu.r(4): SCH: jobFinished: 10-44. TimeElapsed: 128ms.
+01-01 21:06:48.394 12028 12028 I Finsky  : [2] uwq.d(9): UChk: sending requests to /autoUpdate
+01-01 21:06:48.405 12028 13139 E sqlite3_android: [IKR-38846] ONEPLUS_NAME_PARTS_MATCH SQLITE_OK
+01-01 21:06:48.429 12028 12166 I Finsky  : [6777] ppu.r(4): SCH: jobFinished: 10-1. TimeElapsed: 2027ms.
+01-01 21:06:48.449 12028 13039 I Finsky  : [6864] vre.a(4): Cleaning the verify apps datastore
+01-01 21:06:48.460   605   605 E SELinux : avc:  denied  { find } for pid=5399 uid=10164 name=tethering scontext=u:r:vendor_systemhelper_app:s0:c512,c768 tcontext=u:object_r:tethering_service:s0 tclass=service_manager permissive=0
+01-01 21:06:48.561 11922 12894 E sqlite3_android: [IKR-38846] ONEPLUS_NAME_PARTS_MATCH SQLITE_OK
+01-01 21:06:48.608 13045 13142 I Isotope : UID: [10132]  PID: [13045] HygieneTask : Syncing Archive List of size 1
+01-01 21:06:48.613 13045 13142 E ActivityThread: Failed to find provider info for com.google.android.instantapps.supervisor.SupervisorArchiveProvider
+01-01 21:06:48.614 13045 13142 I Isotope : UID: [10132]  PID: [13045] DownloadHandler : file already present on device. Not queuing download for com.google.android.instantapps.dna.archive:39.
+01-01 21:06:48.661   605   605 E SELinux : avc:  denied  { find } for pid=5399 uid=10164 name=tethering scontext=u:r:vendor_systemhelper_app:s0:c512,c768 tcontext=u:object_r:tethering_service:s0 tclass=service_manager permissive=0
+01-01 21:06:48.862   605   605 E SELinux : avc:  denied  { find } for pid=5399 uid=10164 name=tethering scontext=u:r:vendor_systemhelper_app:s0:c512,c768 tcontext=u:object_r:tethering_service:s0 tclass=service_manager permissive=0
+01-01 21:06:48.896 12028 13039 I Finsky  : [6864] vre.a(51): Finished cleaning the verify apps datastore
+01-01 21:06:49.063   605   605 E SELinux : avc:  denied  { find } for pid=5399 uid=10164 name=tethering scontext=u:r:vendor_systemhelper_app:s0:c512,c768 tcontext=u:object_r:tethering_service:s0 tclass=service_manager permissive=0
+01-01 21:06:49.072 12028 12028 I Finsky  : [2] njy.n(8): Invalidating cached PackageState for com.google.android.media
+01-01 21:06:49.073 12028 12028 I Finsky  : [2] njy.s(3): Package no longer installed: com.google.android.media
+01-01 21:06:49.085 12028 12028 I Finsky  : [2] njy.n(8): Invalidating cached PackageState for com.google.android.conscrypt
+01-01 21:06:49.086 12028 12028 I Finsky  : [2] njy.s(3): Package no longer installed: com.google.android.conscrypt
+01-01 21:06:49.087 12028 13005 I Finsky  : [6856] ibv.run(3): Frosting DB delete succeeded: true
+01-01 21:06:49.090 11922 12894 E sqlite3_android: [IKR-38846] ONEPLUS_NAME_PARTS_MATCH SQLITE_OK
+01-01 21:06:49.096 12028 12028 I Finsky  : [2] njy.n(8): Invalidating cached PackageState for com.google.android.extservices
+01-01 21:06:49.097 12028 12028 I Finsky  : [2] njy.s(3): Package no longer installed: com.google.android.extservices
+01-01 21:06:49.097 12028 13005 I Finsky  : [6856] ibv.run(3): Frosting DB delete succeeded: true
